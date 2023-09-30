@@ -1,0 +1,28 @@
+.custom-btn-signup {
+  background-color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.custom-btn-login {
+  background-color: #6594e4;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-btn-login {
+    width: 100%;
+  }
+  .custom-btn-signup {
+    width: 100%;
+  }
+}
+
+/* FOOTER */
+.footer-wrapper {
+  background-color: white;
+  min-height: 100px;
+}
